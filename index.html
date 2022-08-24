@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRUD Sederhana</h1>
+    <div class="container">
+        <form action="" id="form">
+            <div class="form-grup">
+                <label for="nama">Nama : </label><br>
+                <input type="text" name="nama" id="nama" required autocomplete="off">
+            </div>
+            <div class="form-grup">
+                <label for="email">Email : </label><br>
+                <input type="email" name="email" id="email" required autocomplete="off">
+            </div>
+            <div class="form-grup">
+                <label for="alamat">Alamat : </label><br>
+                <textarea name="alamat" id="alamat" cols="20" rows="5"></textarea>
+            </div>
+            <div class="form-grup" align="center">
+                <input type="submit" value="Tambah Data!" name="tombol" id="tombol">
+            </div>
+        </form>
+    </div>
+
+    <br><br>
+
+    <table class="data" border="1" cellspacing="0">
+        <tr>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Alamat</th>
+            <th>Aksi</th>
+        </tr>
+    </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
